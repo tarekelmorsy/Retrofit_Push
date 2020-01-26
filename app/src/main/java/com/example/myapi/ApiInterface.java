@@ -7,6 +7,6 @@ import retrofit2.http.Body;
 import retrofit2.http.POST;
 
 public interface ApiInterface {
-    @POST("posts")
+     @POST("posts")
     public  Call<Model> setpost(@Body Model modellll);
 }
